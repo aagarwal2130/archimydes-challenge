@@ -1,0 +1,45 @@
+.storyReviewContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100%-20px);
+  margin: auto;
+  .mainContainer {
+    .dataSection {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+
+      .label {
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 22px;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+
+    font-weight: 700;
+  }
+
+  button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .greenButton {
+    background-color: #4caf50;
+  }
+  .redButton {
+    background-color: #ff3232;
+  }
+}
